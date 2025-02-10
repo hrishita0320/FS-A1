@@ -47,6 +47,7 @@ class SmallestElement{
 
             
         }
+        sc.close();
 
     }
 }
