@@ -38,14 +38,14 @@ class ReverseVowels{
         int left = 0;
         int right = n-1;
         while(left<=right){
-            if(l.contains(sb.charAt(left))&& l.contains(sb.charAt(right))){
+            if(l.contains(Character.toLowerCase(sb.charAt(left)))&& l.contains(Character.toLowerCase(sb.charAt(right)))){
                 char temp = sb.charAt(left);
                 sb.setCharAt(left,sb.charAt(right));
                 sb.setCharAt(right,temp);
                 right--;
                 left++;
             }
-            else if(l.contains(sb.charAt(left))){
+            else if(l.contains(Character.toLowerCase(sb.charAt(left)))){
                 right--;
             }
             else{
