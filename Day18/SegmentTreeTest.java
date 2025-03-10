@@ -4,7 +4,6 @@ As a part of this she has given set of N numbers, and asked the students
 to perform the operations listed below:
 1. sumRange(start, end) - return the sum of numbers between the indices start and end, both are inclusive.
 2. update(ind, val) - update the value at the index 'ind' to 'val'.
-
 Your task is to solve this problem using Segment Tree concept.
 
 Input Format:
@@ -14,7 +13,7 @@ Line-2: N space separated integers.
 next Q lines: Three integers option, start/ind and end/val.
 
 Output Format:
---------------
+--------------       
 An integer result, for every sumRange query.
 
 

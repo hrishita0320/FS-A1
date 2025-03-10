@@ -76,6 +76,7 @@ class KthSmallestSubarraySum{
             low = Math.min(low,arr[i]);
             high+=arr[i];
         }
+        
         while(low<high){
             int mid = (low+high)/2;
             int count = countSubarray(arr,mid);
