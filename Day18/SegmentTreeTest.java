@@ -98,8 +98,7 @@ class SegmentTree{
                 int mid = (start+end)/2;
                 seg.left = buildTree(arr,start,mid);
                 seg.right = buildTree(arr,mid+1,end);
-                seg.sum = seg.left.sum+seg.right.sum;
-                
+                seg.sum = seg.left.sum+seg.right.sum;                
             }
             return seg;
         }

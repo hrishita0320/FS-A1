@@ -67,7 +67,7 @@ class ClosestPair{
         int j=0;
         int left=0;
         int right=n1-1;
-        while(left<arr1.length && right>=0){
+        while(left<n && right>=0){
             if(arr1[left]+arr2[right]<k){
                 if(Math.abs(arr1[left]+arr2[right]-k)<min){
                     min=Math.abs(arr1[left]+arr2[right]-k);
